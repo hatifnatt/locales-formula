@@ -1,0 +1,16 @@
+Debian:
+  pkgs:
+    - locales
+
+RedHat:
+  pkgs:
+    - glibc-common
+
+AstraLinux:
+  pkgs:
+    - locales
+
+RED OS:
+  pkgs:
+    - glibc-common
+

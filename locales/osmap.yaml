@@ -1,0 +1,30 @@
+# If you do not need to provide defaults via the `os` grain,
+# you will need to provide at least an empty dict in this file, e.g.
+# osmap: {}
+---
+# os_family: Debian
+Ubuntu: {}
+Raspbian: {}
+
+# os_family: RedHat
+Fedora: {}
+CentOS: {}
+
+# os_family: Suse
+SUSE: {}
+openSUSE: {}
+
+# os_family: Gentoo
+Funtoo: {}
+
+# os_family: Arch
+Manjaro: {}
+
+# os_family: Solaris
+SmartOS: {}
+
+# os_family: AstraLinux
+AstraLinux: {}
+
+# os_family: RED OS
+RED OS: {}

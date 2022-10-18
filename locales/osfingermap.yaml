@@ -1,0 +1,22 @@
+# If you do not need to provide defaults via the `os_finger` grain,
+# you will need to provide at least an empty dict in this file, e.g.
+# osfingermap: {}
+---
+# os: Debian
+Debian-10: {}
+
+Debian-9: {}
+
+Debian-8: {}
+
+# os: CentOS
+CentOS Linux-8: {}
+
+CentOS Linux-7:
+  pkgs:
+    - glibc-common
+
+# os: Red Hat
+Red Hat Enterprise Linux Server-7:
+  pkgs:
+    - glibc-common

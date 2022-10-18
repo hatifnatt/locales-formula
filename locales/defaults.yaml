@@ -1,0 +1,6 @@
+locales:
+  pkgs:
+    - locales
+  present:
+    - C.UTF-8
+    - en_US.UTF-8

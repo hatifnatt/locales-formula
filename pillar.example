@@ -1,0 +1,10 @@
+locales:
+  # list of required packages for localization (l10n) and internationalization (i18n) support
+  pkgs:
+    - locales
+  # list of locales to generate
+  present:
+    - en_US.UTF-8
+    - ru_RU.UTF-8
+  # system default locale, optional
+  default: en_US.UTF-8
