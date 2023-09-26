@@ -21,7 +21,7 @@ Red Hat Enterprise Linux Server-7:
   pkgs:
     - glibc-common
 
-Red Hat Enterprise Linux Server-8:
+Red Hat Enterprise Linux-8:
   pkgs:
     - glibc-common
     - glibc-all-langpacks
